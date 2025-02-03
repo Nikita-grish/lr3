@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div class="container">
+        <h1>Форма резюме</h1>
+        <form>
+
+            <h2>Общая информация</h2>
+            <div class="form-group">
+                <label>Фамилия <span style="color:red">*</span></label>
+                <input type="text" required placeholder="Введите вашу фамилию" minlength="2" maxlength="50">
+            </div>
+            <div class="form-group">
+                <label>Имя <span style="color:red">*</span></label>
+                <input type="text" required placeholder="Введите ваше имя" minlength="2" maxlength="50">
+            </div>
+            <div class="form-group">
+                <label>Отчество</label>
+                <input type="text" placeholder="Введите ваше отчество" maxlength="50">
+            </div>
+            <div class="form-group">
+                <label>Дата рождения <span style="color:red">*</span></label>
+                <input type="date" required>
+            </div>
+            <div class="form-group">
+                <label>Пол<span style="color:red">*</span></label>
+                <select>
+                    <option>Мужской</option>
+                    <option>Женский</option>
+                </select>
+            </div>
+            <div class="form-group">
+
+                <label>Фото</label>
+                <input type="file" accept="image/*">
+            </div>
+
+
+            <h2>Контактная информация</h2>
+            <div class="form-group">
+                <label>Телефон <span style="color:red">*</span></label>
+                <input type="tel" required placeholder="Введите телефон: +375000000000" pattern="\+[0-9]{10,15}"
+                    maxlength="16">
+            </div>
+            <div class="form-group">
+                <label>Электронная почта</label>
+                <input type="email" placeholder="Введите вашу электронную почту">
+            </div>
+            <div class="form-group">
+                <label>Адрес проживания</label>
+                <input type="text" placeholder="Введите ваш адрес">
+            </div>
+            <div class="form-group">
+                <label>Город проживания</label>
+                <select>
+                    <option>Минск</option>
+                    <option>Брест</option>
+                    <option>Витебск</option>
+                    <option>Гомель</option>
+                    <option>Слуцк</option>
+                    <option>Солигорск</option>
+                </select>
+            </div>
+
+
+
+            <h2>Образование</h2>
+            <div class="form-group">
+                <label>Высшее</label>
+                <input type="text" placeholder="Название учебного заведения">
+            </div>
+            <div class="form-group">
+                <label>Среднее</label>
+                <input type="text" placeholder="Название учебного заведения">
+            </div>
+            <div class="form-group">
+                <label>Дополнительное</label>
+                <input type="text" placeholder="Название учебного заведения">
+            </div>
+            <div class="form-group">
+                <label>Курсы</label>
+                <input type="text" placeholder="Название курсов">
+            </div>
+
+            <h2>Карьера</h2>
+            <div class="form-group">
+                <label>Место работы 1</label>
+                <input type="text" placeholder="Введите место работы 1">
+            </div>
+            <div class="form-group">
+                <label>Дата начала работы 1</label>
+                <input type="date">
+            </div>
+            <div class="form-group">
+                <label>Дата окончания работы 1</label>
+                <input type="date">
+            </div>
+
+            <div class="form-group">
+                <label>Место работы 2</label>
+                <input type="text" placeholder="Введите место работы 2">
+            </div>
+            <div class="form-group">
+
+                <label>Дата начала работы 2</label>
+                <input type="date">
+            </div>
+            <div class="form-group">
+                <label>Дата окончания работы 2</label>
+                <input type="date">
+            </div>
+
+            <div class="form-group">
+                <label>Место работы 3</label>
+                <input type="text" placeholder="Введите место работы 3">
+            </div>
+            <div class="form-group">
+                <label>Дата начала работы 3</label>
+                <input type="date">
+            </div>
+            <div class="form-group">
+                <label>Дата окончания работы 3</label>
+                <input type="date">
+            </div>
+
+            <h2>Расскажите о себе</h2>
+            <div class="form-group">
+                <textarea rows="4" placeholder="Введите информацию о себе"></textarea>
+            </div>
+
+
+            <div class="form-actions">
+                <input type="submit" value="Отправить" class="button">
+                <input type="reset" value="Очистить" class="button">
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
