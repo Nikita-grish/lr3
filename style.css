@@ -32,7 +32,7 @@ label {
     margin-bottom: 5px;
 }
 
-input, select, textarea {
+button,input, select, textarea {
     width: 100%;
     padding: 8px;
     border-radius: 4px;
@@ -40,8 +40,8 @@ input, select, textarea {
 }
 
 
-.button:hover {
-    background-color: #ac8600;
+button:hover {
+    background-color: #e9e0c1;
 }
 
 .form-actions {
